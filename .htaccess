@@ -1,0 +1,15 @@
+
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect /privacy-policy to /privacy-policy.php
+RewriteRule ^privacy-policy$ privacy-policy.php [L]
+
+# Redirect /products to /products.php
+RewriteRule ^products$ products.php [L]
+# Redirect /news-announcements to /news-announcements.php
+RewriteRule ^news-announcements$ news-announcements.php [L]
+
+# Optional: Handle other PHP files (without extensions)
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]

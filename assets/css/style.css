@@ -1,0 +1,102 @@
+ul.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+li.nav-item {
+    padding: 2px 3%;
+    background: #fff;
+    margin: 2px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link , .nav-link:hover{
+    color: #000;
+    background: #fff;
+}
+.nav-link:hover{
+    color: #198754!important;
+    background: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    background: #fff;
+}
+.index-box-midashi1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    color: #198754!important;
+}
+#title-area img {
+    width: 100%;
+}
+.inner-box img {
+    width: 100%;
+}
+.right-side-bar h2{
+    text-align: center;
+}
+.right-side-bar p{
+    padding-top: 3px;
+    color:#fff;
+}
+.right-side-bar {
+    border: 1px solid #198754;
+    padding: 2px;
+    background: #19875485;
+}
+.accordion-button ,.accordion-button:not(.collapsed) {
+    background-color: #19875485 !important;
+}
+.center-bar {
+    background: #19875485;
+    padding: 7px 15px;
+    border-radius: 7px;
+}
+.info {
+    background: #19875485;
+}
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.hero-main{
+    position:relative;
+    display:block;
+    padding: 100px 0;
+  }
+  .hero-main::before{
+      content:"";
+      background: url(../../assets/images/corn-bg.jpg)no-repeat center center/cover;
+    opacity:0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+  }
+  .hero-main h2{
+    text-align:center;
+    color: white;
+    background: #198754;
+    font-size: 40px;
+    padding-bottom: 5px;
+    margin: 0 15%;
+    border-radius: 10px;
+  }
+#footer ul li {
+    list-style: circle;
+  }
+#footer ul li a {
+    color: #fff;
+  }
+  .news-main{background: #198754; color:#fff;margin: 6px;    padding: 12px 25px;}
+  .news-main a{color:#fff;}
+  .index-news ul {width: 100%;text-align: center;}
+  .news-link {padding-left: 50px;}
+
+
+  
